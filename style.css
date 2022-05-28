@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orderBox {
+    min-height: 100vh;
+    width: 100vw;
+    background: #595f54;
+}
+
+.orderHolder{
+    padding-left: 20px;
+    width: 50vw;
+    padding: 20px 0 20px 20px;
+    background: url('./slike/marko.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: max-content;
+}
+
+label {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+input, select, textarea {
+    margin-top: 5px;
+}
+
+#poruci{
+    align-self: center;
+    margin-top: 0;
+    background-color: #044b08;
+    border: 0;
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px 10px 5px 10px;
+}
+
+#showOrdersButton{
+    margin-top: 20px;
+    padding: 2px 5px 2px 5px;
+}
+
+#showOrders {
+    width: 50vw;
+    margin: auto;
+    padding-left: 20px;
+}
+
+#showOrdersTitle{
+    padding: 20px 0 20px 0;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.userOrder {
+    margin: auto;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+}
+
+.userOrder p {
+    color: #044b08;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.userOrder span {
+    color: #000;
+}
+
+.userOrder img{
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.deleteOrder{
+    margin-top: 20px;
+    padding: 0 20px 0 20px;
+}

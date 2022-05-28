@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Final Project</title>
+</head>
+
+<body>
+    <div class="orderBox">
+        <div class="orderHolder">
+            <form class="form">
+                <label for="username">
+                    Kupac:
+                    <input type="text" name="username" id="username" minlength="4">
+                </label>
+                <label for="product">
+                    Dinosaurus:
+                    <select name="product" id="product"></select>
+                </label>
+                <label for="text">Napomena:
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                </label>
+                <input type="submit" value="Poruci" id="poruci">
+            </form>
+        </div>
+        <div id="showOrders">
+            <button id="showOrdersButton">Ispisi sve narudzbine</button>
+        </div>
+        <div id="orders">
+            <div id="showOrdersTitle">
+                <h1>Porudzbine:</h1>
+            </div>
+            <div id="userOrders"></div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
